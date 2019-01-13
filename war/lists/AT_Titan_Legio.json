@@ -8,11 +8,17 @@
 			{"id":200, "name":"Warlord", 		"pts":385, "upgrades":[2000]},
 			{"id":300, "name":"Reaver", 		"pts":250, "upgrades":[2000]},
 			{"id":400, "name":"Warhound", 		"pts":180, "upgrades":[2000]}
-         ]},
+        ]},
 		{"name":"KNIGHT BANNERS", "formations":[
 			{"id":1000, "name":"Questorius Support Banner",			"pts":15, "upgrades":[1001,1002,1003,1004,1005,1010,1011]},
 			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]}
-		]}
+		]},
+		{"name":"PRINCEPS", "formations":[
+			{"id":9000, "name":"Princeps Seniors Trait",	 		"pts":0, "upgrades":[9001,9002,9003,9004,9005,9006,9007]}
+		]},
+		{"name":"LEGIO SPECIAL RULES", "formations":[
+			{"id":10000, "name":"Rules", 							"pts":0, "upgrades":[10001,10002,10003]}
+		]},
 	],	
 	
 	"upgrades":[
@@ -60,12 +66,27 @@
 		{"id":1102, "name":"Cerastus Knight Castigator",		"pts":80},
 		{"id":1103, "name":"Cerastus Knight Acheron",			"pts":85},
 		
-		{"id":2000, "name":"Princeps Seniors",					"pts":0}
+		{"id":2000, "name":"Princeps Senioris",					"pts":0},
+
+		{"id":9001, "name":"<None>",							"pts":0},
+		{"id":9002, "name":"Dominant Strategist",				"pts":0},
+		{"id":9003, "name":"Iron-clad Tyrant",					"pts":0},
+		{"id":9004, "name":"Swift Killer"	,					"pts":0},
+		{"id":9005, "name":"Devoted Servant of the Machine",	"pts":0},
+		{"id":9006, "name":"Favoured by Fortune",				"pts":0},
+		{"id":9007, "name":"Will of Iron",						"pts":0},
+
+		{"id":10001, "name":"<None>",							"pts":0},
+		{"id":10002, "name":"Legio Gryphonicus",				"pts":0},
+		{"id":10003, "name":"Legio Tempestus",					"pts":0}
+		
 		
 		
 		
     ],
 	"formationConstraints":[
+		{"min":1, "from":[10000]},
+		{"min":1, "from":[9000]},
 		{"min":1, "from":[200,300,400]}
 		
 	],
