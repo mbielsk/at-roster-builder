@@ -72,7 +72,7 @@
 		{"id":3001, "name":"Gryphonicus: Sub-Motive Reactors",	"pts":25},
 		{"id":3002, "name":"Gryphonicus: Enhance Auspex Relay",	"pts":10},
 
-		{"id":4000, "name":"Fureans: Hunting Auspex",			"pts":20}
+		{"id":4000, "name":"Fureans: Hunting Auspex",			"pts":20},
 
 		{"id":9001, "name":"-No Trait-",						"pts":0},
 		{"id":9002, "name":"Dominant Strategist",				"pts":0},
@@ -108,7 +108,7 @@
 		{"min":0, "max":1, "from":[3000,3001,4000], "appliesTo":[300]},
 		
 		{"min":2, "max":2, "from":[401,402,403,404], "appliesTo":[400]},
-		{"min":0, "max":1, "from":[3002,,4000], "appliesTo":[400]},
+		{"min":0, "max":1, "from":[3002,4000], "appliesTo":[400]},
 	
 		{"min":3, "max":6, "from":[1001], "appliesTo":[1000]},
 		{"min":6, "max":12, "from":[1002,1003,1004,1005], "appliesTo":[1000]},
