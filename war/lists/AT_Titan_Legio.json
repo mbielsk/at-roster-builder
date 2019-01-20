@@ -14,7 +14,7 @@
 			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]}
 		]},
 		{"name":"PRINCEPS", "formations":[
-			{"id":9000, "name":"Princeps Seniors Trait",	 		"pts":0, "upgrades":[9001,9002,9003,9004,9005,9006,9007]}
+			{"id":9000, "name":"Princeps Seniors Trait",	 		"pts":0, "upgrades":[]}
 		]},
 		{"name":"MANIPLE", "formations":[
 			{"id":10000, "name":"Maniple", 							"pts":0, "upgrades":[]}
