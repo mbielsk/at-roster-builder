@@ -5,8 +5,8 @@
 	"notes":["-"],
 	"sections":[
 		{"name":"TITANS", "formations":[
-			{"id":200, "name":"Warlord", 		"pts":385, "upgrades":[2000,3100,3200,4000,4100]},
-			{"id":300, "name":"Reaver", 		"pts":250, "upgrades":[2000,3000,3001,3100,3200,4000,4100]},
+			{"id":200, "name":"Warlord", 		"pts":385, "upgrades":[2000,3100,3200,4000,4100,4200]},
+			{"id":300, "name":"Reaver", 		"pts":250, "upgrades":[2000,3000,3001,3100,3200,4000,4100,4201]},
 			{"id":400, "name":"Warhound", 		"pts":180, "upgrades":[2000,3002,3200,4000,4100]}
         ]},
 		{"name":"KNIGHT BANNERS", "formations":[
@@ -76,6 +76,10 @@
 		
 		{"id":4000, "name":"Fureans: Hunting Auspex",			"pts":20},
 		{"id":4100, "name":"Vulpa: Plasma Gargolyes",			"pts":15},	
+		{"id":4200, "name":"Krytos: Earthbreaker Missiles",		"pts":20},	
+		{"id":4201, "name":"Krytos: Earthbreaker Missiles",		"pts":10},	
+		
+
 
 		{"id":9001, "name":"-No Trait-",						"pts":0},
 		{"id":9002, "name":"Dominant Strategist",				"pts":0},
@@ -104,11 +108,11 @@
 
 		{"min":1, "max":1, "from":[201,202,203,204,205], "appliesTo":[200]},
 		{"min":2, "max":2, "from":[206,207,208,209,210], "appliesTo":[200]},
-		{"min":0, "max":1, "from":[3100,3200,4000,4100], "appliesTo":[200]},
+		{"min":0, "max":1, "from":[3100,3200,4000,4100,4200], "appliesTo":[200]},
 		
 		{"min":1, "max":1, "from":[301,302,303,304], "appliesTo":[300]},
 		{"min":2, "max":2, "from":[305,306,307,308,309,310], "appliesTo":[300]},
-		{"min":0, "max":1, "from":[3000,3001,3100,3200,4000,4100], "appliesTo":[300]},
+		{"min":0, "max":1, "from":[3000,3001,3100,3200,4000,4100,4201], "appliesTo":[300]},
 		
 		{"min":2, "max":2, "from":[401,402,403,404], "appliesTo":[400]},
 		{"min":0, "max":1, "from":[3002,3200,4000,4100], "appliesTo":[400]},
