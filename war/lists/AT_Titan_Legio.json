@@ -5,9 +5,9 @@
 	"notes":["-"],
 	"sections":[
 		{"name":"TITANS", "formations":[
-			{"id":200, "name":"Warlord", 		"pts":385, "upgrades":[2000,3100,3200,4000,4100,4200]},
-			{"id":300, "name":"Reaver", 		"pts":250, "upgrades":[2000,3000,3001,3100,3200,4000,4100,4201]},
-			{"id":400, "name":"Warhound", 		"pts":180, "upgrades":[2000,3002,3200,4000,4100]}
+			{"id":200, "name":"Warlord", 		"pts":385, "upgrades":[2000,3100,3200,4000,4100,4101,4200,4300,4301]},
+			{"id":300, "name":"Reaver", 		"pts":250, "upgrades":[2000,3000,3001,3100,4000,4100,4101,4201,4300,4301]},
+			{"id":400, "name":"Warhound", 		"pts":180, "upgrades":[2000,3002,3300,3301,4000,4100,4101,4300,4301]}
         ]},
 		{"name":"KNIGHT BANNERS", "formations":[
 			{"id":1000, "name":"Questorius Support Banner",			"pts":15, "upgrades":[1001,1002,1003,1004,1005,1010,1011]},
@@ -72,14 +72,18 @@
 		{"id":3001, "name":"Gryphonicus: Sub-Motive Reactors",	"pts":25},
 		{"id":3002, "name":"Gryphonicus: Enhance Auspex Relay",	"pts":10},
 		{"id":3100, "name":"Atarus: Infernus Missiles",			"pts":15},
-		{"id":3200, "name":"Defensor: Devotion War Sirens",		"pts":20},
-		
-		{"id":4000, "name":"Fureans: Hunting Auspex",			"pts":20},
-		{"id":4100, "name":"Vulpa: Plasma Gargolyes",			"pts":15},	
-		{"id":4200, "name":"Krytos: Earthbreaker Missiles",		"pts":20},	
-		{"id":4201, "name":"Krytos: Earthbreaker Missiles",		"pts":10},	
+		{"id":3200, "name":"Defensor: Devotional War Sirens",	"pts":20},
+		{"id":3300, "name":"Solaria: Fortis Motivators",		"pts":20},
+		{"id":3301, "name":"Solaria: Cameleoline Shrouding",	"pts":35},
 		
 
+		{"id":4000, "name":"Fureans: Hunting Auspex",			"pts":20},
+		{"id":4100, "name":"Vulpa: Plasma Gargolyes",			"pts":15},
+		{"id":4101, "name":"Vulpa: Disruption Emitters",		"pts":30},	
+		{"id":4200, "name":"Krytos: Earthbreaker Missiles",		"pts":20},	
+		{"id":4201, "name":"Krytos: Earthbreaker Missiles",		"pts":10},	
+		{"id":4300, "name":"Mortis: Remains of the Fallen",		"pts":20},
+		{"id":4301, "name":"Mortis: The Warmaster's Veneficence","pts":20},
 
 		{"id":9001, "name":"-No Trait-",						"pts":0},
 		{"id":9002, "name":"Dominant Strategist",				"pts":0},
@@ -108,14 +112,14 @@
 
 		{"min":1, "max":1, "from":[201,202,203,204,205], "appliesTo":[200]},
 		{"min":2, "max":2, "from":[206,207,208,209,210], "appliesTo":[200]},
-		{"min":0, "max":1, "from":[3100,3200,4000,4100,4200], "appliesTo":[200]},
+		{"min":0, "max":1, "from":[3100,3200,4000,4100,4101,4200,4300,4301], "appliesTo":[200]},
 		
 		{"min":1, "max":1, "from":[301,302,303,304], "appliesTo":[300]},
 		{"min":2, "max":2, "from":[305,306,307,308,309,310], "appliesTo":[300]},
-		{"min":0, "max":1, "from":[3000,3001,3100,3200,4000,4100,4201], "appliesTo":[300]},
+		{"min":0, "max":1, "from":[3000,3001,3100,4000,4100,4101,4201,4300,4301], "appliesTo":[300]},
 		
 		{"min":2, "max":2, "from":[401,402,403,404], "appliesTo":[400]},
-		{"min":0, "max":1, "from":[3002,3200,4000,4100], "appliesTo":[400]},
+		{"min":0, "max":1, "from":[3002,3300,3301,4000,4100,4101,4300,4301], "appliesTo":[400]},
 	
 		{"min":3, "max":6, "from":[1001], "appliesTo":[1000]},
 		{"min":6, "max":12, "from":[1002,1003,1004,1005], "appliesTo":[1000]},
