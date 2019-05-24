@@ -11,7 +11,9 @@
         ]},
 		{"name":"KNIGHT BANNERS", "formations":[
 			{"id":1000, "name":"Questorius Support Banner",			"pts":15, "upgrades":[1001,1002,1003,1004,1005,1010,1011]},
-			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]}
+			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]},
+			{"id":1200, "name":"Acastus Support Banner",			"pts":10, "upgrades":[1201,1202]}
+			
 		]},
 		{"name":"MANIPLE", "formations":[
 			{"id":10000, "name":"Maniple", 							"pts":0, "upgrades":[]}
@@ -74,6 +76,9 @@
 		{"id":1101, "name":"Cerastus Knight Lancer",			"pts":80},
 		{"id":1102, "name":"Cerastus Knight Castigator",		"pts":80},
 		{"id":1103, "name":"Cerastus Knight Acheron",			"pts":85},
+		
+		{"id":1201, "name":"Acastus Knight Asterion",			"pts":0},
+		{"id":1202, "name":"Cerastus Knight Porphyrion",		"pts":0},
 		
 		{"id":2000, "name":"Princeps Senioris",					"pts":0},
 
