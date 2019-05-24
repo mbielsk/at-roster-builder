@@ -13,12 +13,21 @@
 			{"id":1000, "name":"Questorius Support Banner",			"pts":15, "upgrades":[1001,1002,1003,1004,1005,1010,1011]},
 			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]}
 		]},
-		{"name":"PRINCEPS", "formations":[
-			{"id":9000, "name":"Princeps Seniors Trait",	 		"pts":0, "upgrades":[]}
-		]},
 		{"name":"MANIPLE", "formations":[
 			{"id":10000, "name":"Maniple", 							"pts":0, "upgrades":[]}
-		]}
+		]},
+		{"name":"TITANS OF LEGENDS", "formations":[
+			{"id":20000, "name":"Vulpa Reaver - Vestiti Ferrus", 			"pts":0, "upgrades":[]},
+			{"id":20001, "name":"Tempestus Warhound - ?", 					"pts":0, "upgrades":[]},
+			{"id":20002, "name":"Krytos Warlord - Hammer of Tyrants", 		"pts":0, "upgrades":[]},
+			{"id":20003, "name":"Mortis Reaver - ? Reaper", 				"pts":0, "upgrades":[]},
+			{"id":20004, "name":"Fureans ? - ?", 							"pts":0, "upgrades":[]},
+			{"id":20005, "name":"Astorum Reaver - ?", 						"pts":0, "upgrades":[]},
+			{"id":20006, "name":"Defensor Reaver - Dawn of Englihtement", 	"pts":0, "upgrades":[]},
+			{"id":20007, "name":"Atarus Warlord - Ignus Ferrus",			"pts":0, "upgrades":[]},
+			{"id":20008, "name":"Gryphoncius Warlord - ?", 					"pts":0, "upgrades":[]},
+			{"id":20009, "name":"Ignatum Reaver - ?", 						"pts":0, "upgrades":[]}
+		]}	
 	],	
 	
 	"upgrades":[
