@@ -20,15 +20,15 @@
 		]},
 		{"name":"TITANS OF LEGENDS", "formations":[
 			{"id":20000, "name":"Vulpa Reaver - Vestiti Ferrus", 			"pts":0, "upgrades":[]},
-			{"id":20001, "name":"Tempestus Warhound - ?", 					"pts":0, "upgrades":[]},
+			{"id":20001, "name":"Tempestus Warhound - Mantellan Foreman",	"pts":0, "upgrades":[]},
 			{"id":20002, "name":"Krytos Warlord - Hammer of Tyrants", 		"pts":0, "upgrades":[]},
-			{"id":20003, "name":"Mortis Reaver - ? Reaper", 				"pts":0, "upgrades":[]},
-			{"id":20004, "name":"Fureans ? - ?", 							"pts":0, "upgrades":[]},
-			{"id":20005, "name":"Astorum Reaver - ?", 						"pts":0, "upgrades":[]},
-			{"id":20006, "name":"Defensor Reaver - Dawn of Englihtement", 	"pts":0, "upgrades":[]},
+			{"id":20003, "name":"Mortis Warlord - Penumbral Reaper",		"pts":0, "upgrades":[]},
+			{"id":20004, "name":"Fureans Warhound - Iben Faruq", 			"pts":0, "upgrades":[]},
+			{"id":20005, "name":"Astorum Reaver - Lucius Praetorian",		"pts":0, "upgrades":[]},
+			{"id":20006, "name":"Defensor Reaver - Dawn of Enlightement", 	"pts":0, "upgrades":[]},
 			{"id":20007, "name":"Atarus Warlord - Ignus Ferrus",			"pts":0, "upgrades":[]},
-			{"id":20008, "name":"Gryphoncius Warlord - ?", 					"pts":0, "upgrades":[]},
-			{"id":20009, "name":"Ignatum Reaver - ?", 						"pts":0, "upgrades":[]}
+			{"id":20008, "name":"Gryphoncius Warlord - Bellator Magno",  	"pts":0, "upgrades":[]},
+			{"id":20009, "name":"Ignatum Reaver - Iracundos", 				"pts":0, "upgrades":[]}
 		]}	
 	],	
 	
