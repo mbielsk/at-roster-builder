@@ -11,6 +11,7 @@
         ]},
 		{"name":"KNIGHT BANNERS", "formations":[
 			{"id":1000, "name":"Questorius Support Banner",			"pts":15, "upgrades":[1001,1002,1003,1004,1005,1010,1011]},
+			
 			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]},
 			{"id":1200, "name":"Acastus Support Banner",			"pts":10, "upgrades":[1201,1202,1203,1204]}
 			
@@ -19,17 +20,17 @@
 			{"id":10000, "name":"Maniple", 							"pts":0, "upgrades":[]}
 		]},
 		{"name":"TRAITOR TITANS OF LEGEND", "formations":[
-			{"id":20000, "name":"Vulpa Reaver - Vestiti Ferrus", 			"pts":275, "upgrades":[2000,3000,3001,3100,4000,4100,4101,4201,4300,4301]},
-			{"id":20001, "name":"Tempestus Warhound - Mantellan Foreman",	"pts":205, "upgrades":[2000,3002,3300,3301,4000,4100,4101,4300,4301]},
-			{"id":20002, "name":"Krytos Warlord - Hammer of Tyrants", 		"pts":420, "upgrades":[201,202,203,204,205]},
+			{"id":20000, "name":"Vulpa Reaver - Vestiti Ferrus", 			"pts":275, "upgrades":[4100,4101]},
+			{"id":20001, "name":"Tempestus Warhound - Mantellan Foreman",	"pts":205, "upgrades":[]},
+			{"id":20002, "name":"Krytos Warlord - Hammer of Tyrants", 		"pts":420, "upgrades":[4200]},
 			{"id":20003, "name":"Mortis Warlord - Penumbral Reaper",		"pts":0, "upgrades":[]},
 			{"id":20004, "name":"Fureans Warhound - Iben Faruq", 			"pts":0, "upgrades":[]}
 			
 		]},
 		{"name":"LOYALIST TITANS OF LEGEND", "formations":[
 			{"id":21005, "name":"Astorum Reaver - Lucius Praetorian",		"pts":0, "upgrades":[]},
-			{"id":21006, "name":"Defensor Reaver - Dawn of Enlightement", 	"pts":0, "upgrades":[]},
-			{"id":21007, "name":"Atarus Warlord - Ignus Ferrus",			"pts":0, "upgrades":[]},
+			{"id":21006, "name":"Defensor Reaver - Dawn of Enlightement", 	"pts":275, "upgrades":[3200]},
+			{"id":21007, "name":"Atarus Warlord - Ignis Ferrus",			"pts":410, "upgrades":[3100]},
 			{"id":21008, "name":"Gryphoncius Warlord - Bellator Magno",  	"pts":0, "upgrades":[]},
 			{"id":21009, "name":"Ignatum Reaver - Iracundos", 				"pts":0, "upgrades":[]}
 		]}		
@@ -127,13 +128,13 @@
 	],
 	"upgradeConstraints":[
 
-		{"min":1, "max":1, "from":[201,202,203,204,205], "appliesTo":[200,20002]},
-		{"min":2, "max":2, "from":[206,207,208,209,210], "appliesTo":[200]},
-		{"min":0, "max":1, "from":[3100,3200,4000,4100,4101,4200,4300,4301], "appliesTo":[200]},
+		{"min":1, "max":1, "from":[201,202,203,204,205], "appliesTo":[200,20002,21007]},
+		{"min":2, "max":2, "from":[206,207,208,209,210], "appliesTo":[200,21007]},
+		{"min":0, "max":1, "from":[3100,3200,4000,4100,4101,4200,4300,4301], "appliesTo":[200,20002,21007]},
 		
-		{"min":1, "max":1, "from":[301,302,303,304], "appliesTo":[300,20000]},
-		{"min":2, "max":2, "from":[305,306,307,308,309,310], "appliesTo":[300,20000]},
-		{"min":0, "max":1, "from":[3000,3001,3100,4000,4100,4101,4201,4300,4301], "appliesTo":[300,20000]},
+		{"min":1, "max":1, "from":[301,302,303,304], "appliesTo":[300,20000,21006]},
+		{"min":2, "max":2, "from":[305,306,307,308,309,310], "appliesTo":[300,20000,21006]},
+		{"min":0, "max":1, "from":[3000,3001,3100,4000,4100,4101,4201,4300,4301], "appliesTo":[300,20000,21006]},
 		
 		{"min":2, "max":2, "from":[401,402,403,404], "appliesTo":[400,20001]},
 		{"min":0, "max":1, "from":[3002,4000,4100,4101,4300,4301], "appliesTo":[400,20001]},
