@@ -13,7 +13,7 @@
 		{"name":"KNIGHT BANNERS", "formations":[
 			{"id":1000, "name":"Questorius Support Banner",			"pts":15, "upgrades":[1001,1002,1003,1004,1005,1010,1011]},
 			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]},
-			{"id":1200, "name":"Acastus Support Banner",			"pts":10, "upgrades":[1201,1202,1203,1204]}
+			{"id":1200, "name":"Acastus Auxiliary Banner",			"pts":20, "upgrades":[1201,1202,1203,1204]}
 			
 		]},
 		{"name":"MANIPLE", "formations":[
@@ -85,8 +85,8 @@
 		{"id":1102, "name":"Cerastus Knight Castigator",		"pts":80},
 		{"id":1103, "name":"Cerastus Knight Acheron",			"pts":85},
 		
-		{"id":1201, "name":"Acastus Knight Asterion",			"pts":90},
-		{"id":1202, "name":"Cerastus Knight Porphyrion",		"pts":90},
+		{"id":1201, "name":"Acastus Knight Asterion",			"pts":180},
+		{"id":1202, "name":"Cerastus Knight Porphyrion",		"pts":165},
 		{"id":1203, "name":"Twin Autocannon",					"pts":0},
 		{"id":1204, "name":"Twin Lascannon",					"pts":10},
 		
@@ -174,8 +174,8 @@
 		{"min":2, "max":4, "from":[1101,1102,1103], "appliesTo":[1100]},
 		
 		
-		{"min":1, "max":4, "from":[1201,1202], "appliesTo":[1200]},
-		{"min":1, "max":4, "from":[1203,1204], "appliesTo":[1200]},
+		{"min":1, "max":2, "from":[1201,1202], "appliesTo":[1200]},
+		{"min":1, "max":2, "from":[1203,1204], "appliesTo":[1200]},
 		
 		{"min":0, "max":1, "from":[2000], "appliesTo":[200,300,400]},
 
