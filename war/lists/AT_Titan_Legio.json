@@ -16,9 +16,6 @@
 			{"id":1200, "name":"Acastus Auxiliary Banner",			"pts":20, "upgrades":[1201,1202,1203,1204]}
 			
 		]},
-		{"name":"MANIPLE", "formations":[
-			{"id":10000, "name":"Maniple", 							"pts":0, "upgrades":[]}
-		]},
 		{"name":"UNIQUE TITANS", "formations":[
 			{"id":20, "name":"Warlord-Sinister Titan", 		"pts":685, "upgrades":[2000]}
         ]},
