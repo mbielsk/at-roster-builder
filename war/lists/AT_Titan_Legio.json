@@ -19,6 +19,9 @@
 		{"name":"MANIPLE", "formations":[
 			{"id":10000, "name":"Maniple", 							"pts":0, "upgrades":[]}
 		]},
+		{"name":"UNIQUE TITANS", "formations":[
+			{"id":20, "name":"Warlord-Sinister Titan", 		"pts":685, "upgrades":[2000]}
+        ]},
 		{"name":"TRAITOR TITANS OF LEGEND", "formations":[
 			{"id":20000, "name":"Vulpa Reaver - Vestiti Ferrus", 			"pts":275, "upgrades":[4100,4101]},
 			{"id":20001, "name":"Tempestus Warhound - Mantellan Foreman",	"pts":205, "upgrades":[]},
@@ -49,6 +52,7 @@
 		{"id":208, "name":"Macro-Gatling Blaster",				"pts":30},
 		{"id":209, "name":"Sunfury Plasma Annihilator",			"pts":45},
 		{"id":210, "name":"Belicosa Volcano Cannon",			"pts":50},	
+		{"id":211, "name":"Sinistramus Tenebrae",				"pts":0},
 		
 		{"id":251, "name":"Mori Quake Cannon",					"pts":20},
 		
@@ -149,10 +153,13 @@
 	],
 	"upgradeConstraints":[
 
-		{"min":1, "max":1, "from":[201,202,203,204,205], "appliesTo":[200,20002,21007,21008]},
+		{"min":1, "max":1, "from":[201,202,203,204,205], "appliesTo":[20,200,20002,21007,21008]},
 		{"min":2, "max":2, "from":[206,207,208,209,210], "appliesTo":[200,21007]},
 		{"min":0, "max":2, "from":[3100,3200,4000,4100,4101,4200,4300,4301,4303,4304], "appliesTo":[200,20002,21007,21008]},
 		{"min":0, "max":2, "from":[5000,5001,5002,5003,5004,5005,5006,5007,5008,5009], "appliesTo":[200,20002,20003,21007]},
+		
+		{"min":1, "max":1, "from":[206,207,208,209,210], "appliesTo":[20]},
+		{"min":1, "max":1, "from":[211], "appliesTo":[20]},
 		
 		{"min":1, "max":1, "from":[251], "appliesTo":[250]},
 		{"min":2, "max":2, "from":[305,306,307,308], "appliesTo":[250]},
@@ -179,7 +186,7 @@
 		{"min":1, "max":2, "from":[1201,1202], "appliesTo":[1200]},
 		{"min":1, "max":2, "from":[1203,1204], "appliesTo":[1200]},
 		
-		{"min":0, "max":1, "from":[2000], "appliesTo":[200,300,400]},
+		{"min":0, "max":1, "from":[2000], "appliesTo":[20,200,300,400]},
 
 		{"min":1, "max":1, "from":[9001,9002,9003,9004,9005,9006,9007], "appliesTo":[9000]},
 		{"min":1, "max":1, "from":[10001,10002,10003,10004,10005,10006,10007,10008,10009], "appliesTo":[10000]},
