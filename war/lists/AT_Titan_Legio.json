@@ -16,8 +16,9 @@
 			{"id":1200, "name":"Acastus Auxiliary Banner",			"pts":20, "upgrades":[1201,1202,1203,1204]}
 			
 		]},
-		{"name":"UNIQUE TITANS", "formations":[
-			{"id":20, "name":"Warlord-Sinister Titan", 		"pts":685, "upgrades":[2000]}
+		{"name":"AUXILIARY TITANS", "formations":[
+			{"id":20, "name":"Warlord-Sinister Titan", 		"pts":685},
+			{"id":500, "name":"Warmaster", 		"pts":850}
         ]},
 		{"name":"TRAITOR TITANS OF LEGEND", "formations":[
 			{"id":20000, "name":"Vulpa Reaver - Vestiti Ferrus", 			"pts":275, "upgrades":[4100,4101]},
@@ -72,6 +73,16 @@
 		{"id":404, "name":"Turbolaser Destructor",				"pts":20},
 		{"id":405, "name":"Ursus Claw",							"pts":10},
 		{"id":406, "name":"Natrix Shock Lance",					"pts":20},
+		
+		{"id":501, "name":"Vulcan Megabolter",					"pts":20},
+		{"id":502, "name":"Inferno Gun",						"pts":25},
+		{"id":503, "name":"Plasma Blastgun",					"pts":40},
+		{"id":504, "name":"Turbolaser Destructor",				"pts":30},
+		{"id":505, "name":"Apocalypse Missile Array",			"pts":10},
+		{"id":506, "name":"Melta Cannon",						"pts":30},
+		
+		{"id":507, "name":"Revelator Missile Launcher",			"pts":50},
+		{"id":508, "name":"Suzerain Class Plasma Destructor",	"pts":70},
 		
 		{"id":1001, "name":"Imperial Knight",					"pts":35},
 		
@@ -161,6 +172,10 @@
 		
 		{"min":1, "max":1, "from":[251,252], "appliesTo":[250]},
 		{"min":2, "max":2, "from":[305,306,307,308], "appliesTo":[250]},
+		
+		{"min":2, "max":2, "from":[508], "appliesTo":[500]},
+		{"min":1, "max":1, "from":[507], "appliesTo":[500]},
+		{"min":2, "max":2, "from":[501,502,503,504,505,506], "appliesTo":[500]},
 		
 		{"min":1, "max":1, "from":[301,302,303,304], "appliesTo":[300,20000,21005,21006]},
 		{"min":2, "max":2, "from":[305,306,307,308,309,310], "appliesTo":[300,20000,21005,21006]},
