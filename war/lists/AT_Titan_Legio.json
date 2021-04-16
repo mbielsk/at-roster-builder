@@ -14,7 +14,7 @@
 			{"id":1000, "name":"Questorius Support Banner",			"pts":15, "upgrades":[1001,1002,1003,1004,1005,1010,1011]},
 			{"id":1100, "name":"Cerastus Support Banner",			"pts":10, "upgrades":[1101,1102,1103]},
 			{"id":1200, "name":"Acastus Auxiliary Banner",			"pts":20, "upgrades":[1201,1202,1203,1204]},
-			{"id":1300, "name":"Questoris Knight Magaera Banner",	"pts":10, "upgrades":[1301,1302,1303,1304]}
+			{"id":1300, "name":"Questoris Knight Magaera Banner",	"pts":10, "upgrades":[1301,1302,1303,1304]},
 			{"id":1400, "name":"Questoris Knight Styrix Banner",	"pts":10, "upgrades":[1401,1402,1403,1404]}
 			
 		]},
