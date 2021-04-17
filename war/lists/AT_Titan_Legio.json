@@ -120,7 +120,7 @@
 		{"id":3000, "name":"Gryphonicus: Gravatus Plating",		"pts":20},
 		{"id":3001, "name":"Gryphonicus: Sub-Motive Reactors",	"pts":25},
 		{"id":3002, "name":"Gryphonicus: Enhance Auspex Relay",	"pts":10},
-		{"id":3100, "name":"Atarus: Infernus Missiles",			"pts":15},
+		{"id":3100, "name":"Atarus: Infernus Missiles",			"pts":25},
 		{"id":3200, "name":"Defensor: Devotional War Sirens",	"pts":20},
 		{"id":3300, "name":"Solaria: Fortis Motivators",		"pts":20},
 		{"id":3301, "name":"Solaria: Cameleoline Shrouding",	"pts":35},
