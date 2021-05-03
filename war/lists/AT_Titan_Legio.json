@@ -5,8 +5,8 @@
 	"notes":["-"],
 	"sections":[
 		{"name":"TITANS", "formations":[
-			{"id":200, "name":"Warlord", 		"pts":385, "upgrades":[2000,3100,3200,4000,4100,4101,4200,4300,4301,4303,4304,4305,5000,5002]},
-			{"id":250, "name":"Warbringer", 	"pts":325, "upgrades":[2000,3000,3001,3100,4000,4100,4101,4201,4300,4301,4303,5000, 5002]},
+			{"id":200, "name":"Warlord", 		"pts":385, "upgrades":[2000,3100,3200,4000,4100,4101,4200,4300,4301,4303,4304,4305,5000,5002,5003]},
+			{"id":250, "name":"Warbringer", 	"pts":325, "upgrades":[2000,3000,3001,3100,4000,4100,4101,4201,4300,4301,4303,5000, 5002,5003]},
 			{"id":300, "name":"Reaver", 		"pts":250, "upgrades":[2000,3000,3001,3100,4000,4100,4101,4201,4300,4301,4303,4304,4305,5000,5001,5002]},
 			{"id":400, "name":"Warhound", 		"pts":180, "upgrades":[2000,3002,3300,3301,4000,4100,4101,4300,4301,4302,4303,5000]}
         ]},
@@ -142,7 +142,8 @@
 		{"id":5000, "name":"Universal: Bastion Shielding",	"pts":10},
 		{"id":5001, "name":"Loyalist: Vortex Payload",	"pts":20},
 		{"id":5002, "name":"Loyalist: Hunter Shells X Dice",	"pts":5},
-
+		{"id":5003, "name":"Universal: Tracking Gyroscopes",	"pts":25},
+		
 		
 
 		{"id":9001, "name":"-No Trait-",						"pts":0},
